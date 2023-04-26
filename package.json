@@ -1,0 +1,21 @@
+{
+  "name": "scripts-node",
+  "version": "1.0.0",
+  "description": "nodejs ts playground",
+  "type": "module",
+  "scripts": {
+    "openai": "ts-node --esm src/openai.ts",
+    "finance": "ts-node --esm src/finance/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "puppeteer": "^19.9.0",
+    "puppeteer-extra": "^3.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
